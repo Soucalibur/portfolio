@@ -3,12 +3,12 @@ import s from "./navbar.css"
 
 const  Navbar =()=>{
     return(
-        <div className="background">
-            <h3>NAAAAVBAARRRRR</h3>
+        <div className="backgroundNav">
+            
             <Link to="/home">
                 Home
             </Link>
-            <Link to="/landing">
+            <Link to="/">
                 Landing
             </Link>
         </div>
