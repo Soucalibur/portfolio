@@ -1,6 +1,7 @@
 .backgroundContact{
     background-color: bisque;
-    
+    bottom: 0;
+    width: 100%;
 }
 
 .backgroundContactMe{
