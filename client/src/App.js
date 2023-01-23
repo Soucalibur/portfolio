@@ -1,20 +1,24 @@
 
 import {Route} from "react-router-dom"
 
-import LandingPage from './components/landingPage';
+
 import Home from './components/home';
 import Navbar from './components/navbar';
 import Contact from "./components/contact/index"
+import Projects from "./components/projects";
+import Skills from "./components/skills";
+import ContactMe from "./components/contact/contactMe";
 
 function App() {
   return (
     <div>
       
-        <Route exact path='/' component={LandingPage} />
-        <Route path='/home' component={Navbar} />
+        <Route path='/' component={Navbar} />
         <Route path='/home' component={Home} />
-        <Route path="/home" component={Contact} />
-        
+        <Route path="/projects" component={Projects} />
+        <Route path="/skills" component={Skills} />
+        <Route path="/contactme" component={ContactMe} />
+        <Route path="/" component={Contact} />
       
     </div>
   );
