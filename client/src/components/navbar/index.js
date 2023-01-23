@@ -5,7 +5,7 @@ const  Navbar =()=>{
     return(
         <div className="backgroundNav">
             <div className="containerButtonsNav">
-                <Link to="/home">
+                <Link to="/">
                         Home
                 </Link>
                 <Link to="/skills">

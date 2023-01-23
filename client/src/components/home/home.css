@@ -21,7 +21,7 @@
 }
 
 .backHome{
-    background-color: rgba(240, 255, 255, 0.301);
+    background-color:rgba(167, 93, 93, 0.836);
     grid-column: 1/13;
     grid-row: 1/19;
     margin: 0 5vw 0 5vw ;
@@ -30,15 +30,21 @@
 .titleHome{
     grid-column: 2/12;
     grid-row: 3/6;
-    background-color: yellowgreen;
+    font-size: 3em ;
+    color: white;
 }
 .subtitleHome{
-    grid-column: 2/12;
-    grid-row: 7/8;
-    background-color: rgb(50, 104, 205);
+    grid-column: 3/12;
+    grid-row: 5/7;
+    font-size: 2.5em;
+    color: white;
+    align-self: center;
+
 }
 
 .descriptionHome{
-    grid-column: 2/12;
-    grid-row: 8/12;
+    grid-column: 7/12;
+    grid-row: 10/12;
+    font-size: 1.5em;
+    color: white;
 }
