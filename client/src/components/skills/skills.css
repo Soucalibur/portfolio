@@ -9,45 +9,74 @@
     object-fit: cover;
     position: fixed;
     top: 0;
-    z-index: -1;
+    z-index: -2;
 }
 
 .backgroundColorSkills{
-    background-color: rgba(240, 255, 255, 0.301);
+    background-color: rgba(167, 93, 93, 0.836);
     grid-column: 1/13;
-    grid-row: 1/19;
+    grid-row: 1/50;
     margin: 0 5vw 0 5vw ;
+    z-index: -1;
 
 }
 
 .titleSkills{
     grid-column: 2/12;
-    grid-row: 3/6;
-    background-color: yellowgreen;
+    grid-row: 2/6;
+    color: white;
+    font-size: 2.7em;
+    text-align: center;
 }
 
 .titleTechSkills{
     grid-column: 2/12;
-    grid-row: 6/7;
-    background-color: rgb(50, 169, 205);
+    grid-row: 5/7;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    align-self: center;
 }
 
 .contentTechSkills{
-    grid-column: 2/12;
-    grid-row: 7/9;
-    background-color: rgb(31, 115, 141);
+    grid-column: 3/11;
+    grid-row: 8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 2em;
 }
+
+.textTechSkills{
+    font-size: 1.5em;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.imgTechSkills{
+    width: 9em;
+    height: 9em;
+}
+
 
 .titleProcessSkills{
     grid-column: 2/12;
-    grid-row: 9/10;
-    background-color: rgb(194, 184, 47);
+    grid-row: 31;   
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    align-self: center;
 }
 
 .contentProcessSkills{
     grid-column: 2/12;
-    grid-row: 10/12;
-    background-color: rgb(139, 132, 34);
+    grid-row: 34;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 8em;
 }
 
 .titleToolSkills{

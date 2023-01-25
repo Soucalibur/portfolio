@@ -1,7 +1,11 @@
 .backgroundContact{
-    background-color: bisque;
+    background-color: rgb(255, 195, 161);
     bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 5.2em;
+    align-items: center;
 }
 
 .backgroundContactMe{
