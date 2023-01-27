@@ -16,6 +16,7 @@ const Contact = ()=>{
                 <a href="https://github.com/Soucalibur">GitHub</a>
             </div>
             
+            
         </div>
         
     )

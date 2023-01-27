@@ -12,6 +12,17 @@ const Imagenes = {
     logoPython: require("./imgSkills/python.png").default,
     logoTypeScript: require("./imgSkills/Typescript.png").default,
     logoReactNative: require("./imgSkills/reactnative.png").default,
+    logoPostman: require("./imgSkills/Postman.png").default,
+    logoVSCode: require("./imgSkills/VSCode.png").default,
+    logoGit: require("./imgSkills/Git.png").default,
+    logoGitHub: require("./imgSkills/GitHub.png").default,
+    logoTrello: require("./imgSkills/Trello.png").default,
+    henryCertificate: require("./imgSkills/HenryCertificate.png").default,
+    EFSETCertificate: require("./imgSkills/EFSETCertificate.png").default,
+    CACCertificate: require("./imgSkills/CACcertificate.png").default,
+    PythonCertificate: require("./imgSkills/PythonCertificate.png").default
+
+
 }
 
 export default Imagenes
