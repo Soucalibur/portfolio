@@ -20,7 +20,9 @@ const Imagenes = {
     henryCertificate: require("./imgSkills/HenryCertificate.png").default,
     EFSETCertificate: require("./imgSkills/EFSETCertificate.png").default,
     CACCertificate: require("./imgSkills/CACcertificate.png").default,
-    PythonCertificate: require("./imgSkills/PythonCertificate.png").default
+    PythonCertificate: require("./imgSkills/PythonCertificate.png").default,
+    HenryCountries: require("./imgProyects/HenryCountries.png").default,
+    
 
 
 }

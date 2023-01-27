@@ -11,6 +11,9 @@ const Skills = ()=>{
                 {/* FIRST FLEX DIV */}
                 <div>
 
+                    <br/>
+                    <br/>
+                    
                     <div className="titleSkills">
                         <h2>Skills</h2>
                     </div>
