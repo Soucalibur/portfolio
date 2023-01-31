@@ -3,6 +3,7 @@ a:link, a:visited{
     font-size: 1.6em;
     color: rgb(255, 255, 255);
     padding: 0 2vw 0 2vw;
+    border: solid 1px white;
    
     display: flex;
     
@@ -21,17 +22,20 @@ a:active {
 }
 
 .backgroundNav{
-    
+
     height: 3em;
     position: sticky;
     top: 0; 
-    background-color: bisque;
+    background-image: linear-gradient( 68.3deg,  rgb(236, 54, 54) 0.4%, rgba(245,177,97,1)  100.2% );
     
     display: flex;
     justify-content: space-around;
     align-items: center;
     
 }
+
+
+
 
 
 

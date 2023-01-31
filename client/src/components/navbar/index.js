@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom"
 import s from "./navbar.css"
+import Imagenes from "../img/imagenes"
 
 const  Navbar =()=>{
     return(
@@ -17,6 +18,7 @@ const  Navbar =()=>{
                 <Link to="/contactme">
                         ContactMe
                 </Link>
+                
             
         </div>
     )
