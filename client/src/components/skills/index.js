@@ -15,7 +15,7 @@ const Skills = ()=>{
                     <br/>
                     
                     <div className="titleSkills">
-                        <h2>Skills</h2>
+                        <h3>Skills</h3>
                     </div>
 
                     <br/>
@@ -203,8 +203,8 @@ const Skills = ()=>{
 
             </div>
 
-            <div className="backgroundImgSkills">
-                <img src={image} alt="skills img"></img>
+            <div >
+                <img src={image} alt="skills img" className="backgroundImgSkills"></img>
             </div>
             <div className="backgroundColorSkills"></div>
             

@@ -4,7 +4,7 @@ import s from "./navbar.css"
 const  Navbar =()=>{
     return(
         <div className="backgroundNav">
-            <div className="containerButtonsNav">
+            
                 <Link to="/">
                         Home
                 </Link>
@@ -17,7 +17,7 @@ const  Navbar =()=>{
                 <Link to="/contactme">
                         ContactMe
                 </Link>
-            </div>
+            
         </div>
     )
 }

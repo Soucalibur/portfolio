@@ -8,11 +8,9 @@ const Home = ()=>{
 
             <div className="titleHome">
                 <h3>FullStack Web Developer</h3>
+                <h4 className="subtitleHome">Matthew Gallar</h4>
             </div>
             
-            <div className="subtitleHome">
-                <h4>Matthew Gallar</h4>
-            </div>
             
             <div className="descriptionHome">
                 <p>
@@ -23,8 +21,8 @@ const Home = ()=>{
                 </p>
             </div>
 
-            <div className="backgroundImgHome">
-                <img src={image} alt="AboutMe" />
+            <div >
+                <img src={image} alt="AboutMe" className="backgroundImgHome" />
             </div>
 
         </div>

@@ -22,7 +22,8 @@ const Imagenes = {
     CACCertificate: require("./imgSkills/CACcertificate.png").default,
     PythonCertificate: require("./imgSkills/PythonCertificate.png").default,
     HenryCountries: require("./imgProyects/HenryCountries.png").default,
-    
+    LatamCom: require("./imgProyects/LatamCom.png").default,
+    backgroundEmailSended: require("./imgBackgrounds/river.jpg").default,
 
 
 }
