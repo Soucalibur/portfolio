@@ -1,4 +1,3 @@
-import image from "../img/Skills.jpg"
 import s from "./skills.css"
 import Imagenes from "../img/imagenes"
 
@@ -204,7 +203,7 @@ const Skills = ()=>{
             </div>
 
             <div >
-                <img src={image} alt="skills img" className="backgroundImgSkills"></img>
+                <img src={Imagenes.backgroundSkills} alt="skills img" className="backgroundImgSkills"></img>
             </div>
             <div className="backgroundColorSkills"></div>
             

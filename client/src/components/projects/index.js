@@ -1,4 +1,3 @@
-import image from "../img/Proyects.jpg"
 import s from "./projects.css"
 import Imagenes from "../img/imagenes"
 
@@ -14,9 +13,13 @@ const Projects = ()=>{
 
             <div className="flexContainerProjects">
 
-                
-
+                <div className="titleOfProjects">
+                    <h3>HenryCountries</h3>
+                </div>
                 <div className="contentProjects">
+                    <div>
+                        <img src={Imagenes.HenryCountries} alt="HenryCountries" className="imgProjects"></img>
+                    </div>
                     <div className="descriptionProjects">
                         <p>
                             <b>Henry Countries:</b> aplicación que muestra los países de una api externa. <br/>
@@ -27,10 +30,15 @@ const Projects = ()=>{
                             - Visualizar detalles de los países y sus respectivas actividades  
                         </p>
                     </div>
-                    <div>
-                        <img src={Imagenes.HenryCountries} alt="HenryCountries" className="imgProjects"></img>
-                    </div>
+                </div> 
 
+                <div className="titleOfProjects">
+                    <h3>LatamCom</h3>
+                </div>
+                <div className="contentProjects">
+                    <div>
+                        <img src={Imagenes.LatamCom} alt="LatamCom" className="imgProjects"></img>
+                    </div>
                     <div className="descriptionProjects">
                         <p>
                             <b>LatamCom:</b> E-commerce de compra y venta de productos para toda América Latina <br/>
@@ -54,15 +62,12 @@ const Projects = ()=>{
                             
                         </p>
                     </div>
-                    <div>
-                        <img src={Imagenes.LatamCom} alt="LatamCom" className="imgProjects"></img>
-                    </div>
                 </div>
 
             </div>
 
             <div >
-                <img src={image} alt="projects img" className="backgroundImgProjects"></img>
+                <img src={Imagenes.backgroundProjects} alt="projects img" className="backgroundImgProjects"></img>
             </div>
 
             <div className="backgroundColorProjects"></div>

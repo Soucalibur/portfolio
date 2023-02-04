@@ -1,7 +1,6 @@
 
 import {Route} from "react-router-dom"
 
-
 import Home from './components/home';
 import Navbar from './components/navbar';
 import Contact from "./components/contact/index"

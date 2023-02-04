@@ -24,7 +24,12 @@ const Imagenes = {
     HenryCountries: require("./imgProyects/HenryCountries.png").default,
     LatamCom: require("./imgProyects/LatamCom.png").default,
     backgroundEmailSended: require("./imgBackgrounds/river.jpg").default,
-    backgroundNav: require("./imgBackgrounds/waterOrange.jpg").default
+    backgroundNav: require("./imgBackgrounds/waterOrange.jpg").default,
+    backgroundHome: require("./imgBackgrounds/AboutMe.jpg").default,
+    backgroundProjects: require("./imgBackgrounds/Proyects.jpg").default,
+    backgroundSkills: require("./imgBackgrounds/Skills.jpg").default,
+    backgroundContactMe: require("./imgBackgrounds/ContactMe2.jpg").default,
+    
 
 
 }

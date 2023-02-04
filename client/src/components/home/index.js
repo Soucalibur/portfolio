@@ -1,4 +1,4 @@
-import image from "../img/AboutMe.jpg"
+import Imagenes from "../img/imagenes"
 import s from "./home.css"
 
 const Home = ()=>{
@@ -22,7 +22,7 @@ const Home = ()=>{
             </div>
 
             <div >
-                <img src={image} alt="AboutMe" className="backgroundImgHome" />
+                <img src={Imagenes.backgroundHome} alt="HomeImg" className="backgroundImgHome" />
             </div>
 
         </div>

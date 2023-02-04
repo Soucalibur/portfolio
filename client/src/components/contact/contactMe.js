@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 import emailjs from 'emailjs-com';
 
 import s from "./contact.css"
-import image from "../img/ContactMe2.jpg"
+import Imagenes from "../img/imagenes";
 
 const validate = (input) =>{
     let errors = {}
@@ -139,7 +139,7 @@ const ContactMe = ()=>{
             </div>
 
             <div>
-                <img src={image} alt="ContactMe img" className="backgroundImgContactMe"></img>
+                <img src={Imagenes.backgroundContactMe} alt="ContactMe img" className="backgroundImgContactMe"></img>
             </div>
 
             <div className="backgroundColorContactMe"></div>
