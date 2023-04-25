@@ -23,3 +23,24 @@
       opacity: 0;
     }
   }
+
+
+  /* Loading */
+
+  #primerDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(5,3,20,1) 10%, rgba(43,21,111,1) 30%, rgba(114,50,242,1) 50%, rgba(43,21,111,1) 70%, rgba(5,3,20,1) 90%, rgba(0,0,0,1) 100%); */
+    background-color: black;
+
+  }
+  .imgLoading{
+    
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+    
+  }
+  
