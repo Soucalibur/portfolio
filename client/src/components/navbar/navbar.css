@@ -1,63 +1,117 @@
-a:link, a:visited{
-    text-decoration: none;
-    font-size: 1.6em;
-    color: rgb(255, 255, 255);
-    padding: 0 2vw 0 2vw;
-    border: solid 1px white;
-   
-    display: flex;
-    
-    background-color: rgb(241, 116, 33);
-    border-radius: 20px;
-    cursor: pointer;
-    text-align: center;
-    width: 7em;
-    justify-content: center;
-    
-}
-a:active {
-    background-color: rgb(240, 153, 125);
-    box-shadow: 0 5px #666;
-    transform: translateY(2px);
-}
-
-.backgroundNav{
-
-    height: 3em;
+.positionNavbar{
     position: sticky;
-    top: 0; 
-    background-image: linear-gradient( 68.3deg,  rgb(236, 54, 54) 0.4%, rgba(245,177,97,1)  100.2% );
-    
+    top: 0;
+    z-index: 2;
+}
+
+.containerNavbar{
+    /* display */
     display: flex;
+
+    /* Properties */
     justify-content: space-around;
     align-items: center;
+    background: linear-gradient(0deg, rgba(114,50,242,1) 0%, rgba(34,18,95,1) 27%, rgba(1,1,8,1) 79%);
+    box-shadow: 0 4px 10px rgba(114,50,242,1);
+    
+
+    /* Sizes */
+    height: 4em;
+}
+
+/* Elementos del Navbar */
+
+.imgNavbar{
+    /* Properties */
+    cursor: pointer;
+
+    /* Sizes */
+    width: 6em;
+    height: 3em;
+}
+
+.navegators{
+    /* Properties */
+    padding: 6px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    cursor: pointer;
+    z-index: 5;
+    /* Sizes */
+    font-size: 1.2em;
+    transition: 0.5s;
     
 }
 
 
+.navegators > .active p {
+    /* transition: 0.5s; */
+    /* border-bottom: solid 1px #05b1d8;
+    box-shadow:  0 7px 15px -10px #05b1d8 ; */
+    
+}
+.navegators:hover{
+    font-size: 1.4em;
+    color: #05b1d8;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+.navegators:visited{
+    border-radius: 20px;
+}
 
+.navegatorPhone{
+    display: none;
+}
 
+.modalMenuPhone{
+    
+    display: none;
+    
+    
+    height: 15vh;
+    color: white;
+    z-index: 5;
+    background-color: rgb(22, 0, 56);
+    border: 1px solid white;
+    flex-direction: column;
+    /* Position */
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 4em;
+    
+    width: 100vw;
 
+    align-self: center;
+    align-items: center;
+    justify-content: center;
 
-/* .button {
-    display: inline-block;
-    padding: 15px 25px;
-    font-size: 24px;
-    cursor: pointer;
-    text-align: center;	
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-  }
-  
-  .button:hover {background-color: #3e8e41}
-  
-  .button:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-} */
+    animation: fadeIn 0.5s;
+    
+    
+}
+
+.modalMenuPhone > .navegators{
+    display: flex;
+}
+
+@media (max-width: 700px){
+    .containerNavbar{
+       padding: 0 0 0 28%;
+    }
+    .navegators{
+        display: none;
+    }
+    .navegatorPhone{
+        /* Display */
+        display: flex;
+
+        /* Properties */
+        color: white;
+        font-size: 2em;
+        cursor: pointer;
+
+    }
+}
+

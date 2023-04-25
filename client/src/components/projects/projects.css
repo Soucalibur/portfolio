@@ -1,57 +1,51 @@
+/* Arreglos nuevos */
 
-.backgroundProjects{
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: 12em 25em 25em;
+.mainContainerProjects{
+    display: flex;
+
+    flex-direction: column;
+    
+    background-image: url("../helper/imgBackgrounds/background3.gif");
+    background-size:cover;
+    
+}
+/* SHOW SECOND */
+.containerShowSecondProjects{
+    display: flex;
+    
+    
+    transition: 0.8s;
+    animation: fadeIn 0.5s linear;
 }
 
-.backgroundImgProjects{
-    
-    object-fit: cover;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    z-index: -1;
-}
+/* ....................................... */
 
-.backgroundColorProjects{
-    background: linear-gradient(62deg, rgba(156,20,20,0.7539390756302521) 0%, rgba(215,85,46,0.7511379551820728) 37%, rgba(215,142,46,0.7567401960784313) 76%);    height: 100%;
-    
-    height: 100%;
-    width: 90%;
-    position: fixed;
-    object-fit: cover;
-    top: 0;
-    margin: 0 5vw 0 5vw ;
-    z-index: -1;
+/* --------------------------------------- */
+
+
+
+.containerShowSecondProjects{
+    display: flex;
+
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .titleProjects{
     
-    grid-column:2/12;
-    grid-row: 1;
     text-align: center;
     padding-top: 1.4em;
     font-size: 3em ;
     color: white;
-}
-
-.flexContainerProjects{
-
-    grid-column: 2/12;
-    grid-row: 2/6;
-
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction:row;
-    gap: 4em;
-    justify-content: center;
+    
 }
 
 .titleOfProjects{
     color: white;
     font-size: 1.7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
 }
 
 .contentProjects{
@@ -60,21 +54,26 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 4em;
-    
+    font-size: 0.8em;
     
 }
 
-
+.positionImgProjects{
+    display: flex;
+    align-items: center;
+    height: 23em;
+}
 .imgProjects{
     
     width: 27em;
     height: 15em;
-    
-   
-    
+
 }
 
 .descriptionProjects{
+    display: flex;
+    align-items: center;
     color: white;
-    margin: 0 1em 5em 1em;
+    height: 23em;
+    
 }

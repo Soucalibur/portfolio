@@ -1,0 +1,108 @@
+
+/* CONTACTME COMPONENT */
+
+.mainContainerContactMe{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    flex-wrap: wrap;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(5,3,20,1) 10%, rgba(43,21,111,1) 30%, rgba(114,50,242,1) 50%, rgba(43,21,111,1) 70%, rgba(5,3,20,1) 90%, rgba(0,0,0,1) 100%);
+    padding-bottom: 5em;
+}
+
+.backgroundImgContactMe{
+    
+    object-fit: cover;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: -2;
+}
+
+
+.titleContactMe{
+    
+    margin-top: 1.55em;
+    color: white;
+    font-size: 2.7em;
+    text-align: center;
+}
+
+.contentContactMe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    
+}
+
+.labelContactMe{
+    display: flex;
+    text-align: start;
+    padding: 0.5em 0 0.2em 0;
+}
+
+.inputContactMe{
+    width: 25em;
+    background: none;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+}
+.messageContactMe{
+    width: 25em;
+    height: 13em;
+    background:none;
+
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: white;
+}
+
+.sendButtonContactMe{
+    width: 5em;
+    height: 2em;
+    border: solid 1px white;
+    border-radius: 20px;
+    margin: 0 10em 0 10em;
+    background-color: none;
+    color: white;
+    transition: 0.2s;
+}
+.sendButtonContactMe:active{
+    background-color: rgba(43,21,111,1)
+}
+
+.containerLinksContactMe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 50%;
+    align-self: center;
+
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    font-size: 1.6em;
+    color: rgb(255, 255, 255);
+    padding: 0 2vw 0 2vw;
+    border: solid 1px white;
+   
+    display: flex;
+    
+    background-color: rgba(43,21,111,1);
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 7em;
+    justify-content: center;
+   
+    
+}
+a:active {
+    background-color: rgba(114,50,242,1);
+}
