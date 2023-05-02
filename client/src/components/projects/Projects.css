@@ -5,14 +5,21 @@
 
     flex-direction: column;
     
-    background-image: url("../helper/imgBackgrounds/background3.gif");
-    background-size:cover;
-    
+}
+.imgBackgroundProjects{
+    position: fixed;
+    top: 0;
+    object-fit: cover;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
 }
 /* SHOW SECOND */
 .containerShowSecondProjects{
     display: flex;
-    
+    flex-direction: column;
+    flex-wrap: wrap;
+
     
     transition: 0.8s;
     animation: fadeIn 0.5s linear;
@@ -22,14 +29,6 @@
 
 /* --------------------------------------- */
 
-
-
-.containerShowSecondProjects{
-    display: flex;
-
-    flex-direction: column;
-    flex-wrap: wrap;
-}
 
 .titleProjects{
     
@@ -65,8 +64,8 @@
 }
 .imgProjects{
     
-    width: 27em;
-    height: 15em;
+    width: 35em;
+    height: 18em;
 
 }
 
@@ -75,5 +74,75 @@
     align-items: center;
     color: white;
     height: 23em;
+    width: 50%;
+}
+
+.titleOfProjectsHC{
+    color: white;
+    font-size: 1.7em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.contentProjectsHC{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4em;
+    font-size: 0.8em;
+}
+
+.titleOfProjectsCP{
+    color: white;
+    font-size: 1.7em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.contentProjectsCP{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4em;
+    font-size: 0.8em;
+    
+}
+
+.positionImgProjectsCP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 23em;
+    
+}
+
+.contectImgProjectsCP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.contectImgProjectsCP:hover{
+    color: white;
+    box-shadow: 0 3px 5px white;
+    background-color: rgb(29, 3, 44);
+}
+
+.descriptionProjectsCP{
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 23em;
+    width: 50%;
+}
+.imgProjectsCP{
+    
+    width: 35em;
+    height: 18em;
     
 }

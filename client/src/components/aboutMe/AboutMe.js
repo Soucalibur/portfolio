@@ -58,9 +58,9 @@ const AboutMe = ()=>{
             >
                 <SwiperSlide><img src={ImagenesCarrusel[0].img1} alt="img" /></SwiperSlide>
                 <SwiperSlide><img src={ImagenesCarrusel[1].img2} alt="img2" /></SwiperSlide>
-                <SwiperSlide><img src={ImagenesCarrusel[2].img3} alt="img3" /></SwiperSlide>
+                {/* <SwiperSlide><img src={ImagenesCarrusel[2].img3} alt="img3" /></SwiperSlide>
                 <SwiperSlide><img src={ImagenesCarrusel[3].img4} alt="img4" /></SwiperSlide>
-                <SwiperSlide><img src={ImagenesCarrusel[4].img5} alt="img5" /></SwiperSlide>
+                <SwiperSlide><img src={ImagenesCarrusel[4].img5} alt="img5" /></SwiperSlide> */}
 
             </Swiper>
         
