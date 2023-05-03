@@ -1,7 +1,7 @@
 import s from "./Projects.css"
 import ImagenesProjects from "../helper/imgProyects/imagenesProjects"
 import ImagenesBackground from "../helper/imgBackgrounds/imagenesBackground"
-
+import { Link } from "react-router-dom"
 const Projects = ()=>{
 
 
@@ -20,12 +20,14 @@ const Projects = ()=>{
                     <h4>Contact Point</h4>
                 </div>
                 <div className="contentProjectsCP">
-                    <div className="positionImgProjectsCP">
-                        <div className="contectImgProjectsCP">
-                            <img src={ImagenesProjects.proyecto3ContactPoint} alt="HenryCountries" className="imgProjectsCP"></img>
-                            <p>Visitar página</p>
-                        </div>
-                    </div>
+                    <Link to="https://emprendimiento.vercel.app/" target="_blank" className="positionImgProjectsCP">
+                        
+                            <div className="contectImgProjectsCP">
+                                <img src={ImagenesProjects.proyecto3ContactPoint} alt="HenryCountries" className="imgProjectsCP"></img>
+                                <p>Visitar página</p>
+                            </div>
+                        
+                    </Link>
                     <div className="descriptionProjectsCP">
                     
                         <p>

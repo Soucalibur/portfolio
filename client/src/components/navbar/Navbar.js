@@ -50,7 +50,7 @@ const Navbar = ()=>{
                         duration="1200"
                         spy={true}
                         activeClass= "active"
-                        offset={-64}
+                        offset={-34}
                         >
                         <p>Proyectos</p>
                     </Link>
@@ -63,7 +63,7 @@ const Navbar = ()=>{
                         duration="1200"
                         spy={true}
                         activeClass="active"
-                        offset={-64}
+                        offset={-20}
                         >
                         <p>Contacto</p>
                     </Link>

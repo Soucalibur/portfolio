@@ -85,7 +85,7 @@
 
 }
 
-a:link, a:visited{
+.linkLinkedin:link, .linkLinkedin:visited, .linkGitbub:link, .linkGitbub:visited {
     text-decoration: none;
     font-size: 1.6em;
     color: rgb(255, 255, 255);
@@ -100,9 +100,8 @@ a:link, a:visited{
     text-align: center;
     width: 7em;
     justify-content: center;
-   
-    
 }
-a:active {
+
+.linkLinkedin:active, .linkGitbub:active{
     background-color: rgba(114,50,242,1);
 }

@@ -139,11 +139,11 @@ const ContactMe = ()=>{
             </div>
 
             <div className="containerLinksContactMe">
-                <div>
-                    <a href="https://www.linkedin.com/in/matthewfullstack/" target="_blank" rel="noopener noreferrer"> LinkedIn</a>  
+                <div >
+                    <a href="https://www.linkedin.com/in/matthewfullstack/" target="_blank" rel="noopener noreferrer" className="linkLinkedin"> LinkedIn</a>  
                 </div>
                 <div>
-                    <a href="https://github.com/Soucalibur" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://github.com/Soucalibur" target="_blank" rel="noopener noreferrer" className="linkGitbub">GitHub</a>
                 </div>
             </div>
 

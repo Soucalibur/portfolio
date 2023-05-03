@@ -4,10 +4,12 @@ import Skills from "../skills/Skills"
 import Projects from "../projects/Projects"
 import ContactMe from "../contactMe/ContactMe"
 import ImagenesProjects from "../helper/imgProyects/imagenesProjects"
-
+import LenisFunction from "../helper/lenis"
 import s from "./landingPage.css"
 
 const Index = ()=>{
+    LenisFunction()
+
     window.onload = ()=>{
         const primerDiv = document.getElementById("primerDiv")
         primerDiv.style.display = "none"

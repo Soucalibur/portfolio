@@ -115,7 +115,7 @@
     justify-content: center;
     flex-direction: column;
     height: 23em;
-    
+    text-decoration: none;
 }
 
 .contectImgProjectsCP{
@@ -145,4 +145,15 @@
     width: 35em;
     height: 18em;
     
+}
+.contectImgProjectsCP > a:link{
+    border: none;
+    background: none;
+    font-size: 1em;
+    width: 40%;
+    color: none;
+}
+
+.contectImgProjectsCP > a:hover{
+    color: white;
 }
