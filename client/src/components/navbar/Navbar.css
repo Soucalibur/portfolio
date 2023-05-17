@@ -98,7 +98,7 @@
 
 @media (max-width: 700px){
     .containerNavbar{
-       padding: 0 0 0 28%;
+       
     }
     .navegators{
         font-size: 1em;
@@ -107,7 +107,7 @@
 }
 @media (max-width: 500px){
     .containerNavbar{
-       padding: 0 0 0 28%;
+      
     }
     .navegators{
         font-size: 0.5em;
