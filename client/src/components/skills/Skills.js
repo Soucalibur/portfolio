@@ -17,7 +17,7 @@ const elementRefs = useRef([]);
           }
         });
       },
-      { threshold: 0.7 }
+      { threshold: 0.5 }
     );
     
     elementRefs.current.forEach((ref) => {
