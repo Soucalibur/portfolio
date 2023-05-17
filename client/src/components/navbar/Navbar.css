@@ -16,7 +16,7 @@
     
 
     /* Sizes */
-    height: 4em;
+    height: 3em;
 }
 
 /* Elementos del Navbar */
@@ -38,7 +38,7 @@
     cursor: pointer;
     z-index: 5;
     /* Sizes */
-    font-size: 1.2em;
+    font-size: 1.1em;
     transition: 0.5s;
     
 }
@@ -101,17 +101,17 @@
        padding: 0 0 0 28%;
     }
     .navegators{
-        display: none;
+        font-size: 1em;
     }
-    .navegatorPhone{
-        /* Display */
-        display: flex;
-
-        /* Properties */
-        color: white;
-        font-size: 2em;
-        cursor: pointer;
-
+    
+}
+@media (max-width: 500px){
+    .containerNavbar{
+       padding: 0 0 0 28%;
     }
+    .navegators{
+        font-size: 0.5em;
+    }
+    
 }
 

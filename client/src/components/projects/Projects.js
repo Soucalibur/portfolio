@@ -23,7 +23,7 @@ const Projects = ()=>{
                     <Link to="https://emprendimiento.vercel.app/" target="_blank" className="positionImgProjectsCP">
                         
                             <div className="contectImgProjectsCP">
-                                <img src={ImagenesProjects.proyecto3ContactPoint} alt="HenryCountries" className="imgProjectsCP"></img>
+                                <img src={ImagenesProjects.proyecto3ContactPoint} alt="HenryCountries" className="imgProjects"></img>
                                 <p>Visitar página</p>
                             </div>
                         
@@ -93,7 +93,7 @@ const Projects = ()=>{
                     <div className="positionImgProjects">
                         <img src={ImagenesProjects.proyecto1HenryCountries} alt="HenryCountries" className="imgProjects"></img>
                     </div>
-                    <div className="descriptionProjects">
+                    <div className="descriptionProjectsHC">
                         <p>
                             <b>Henry Countries:</b> aplicación que muestra los países de una api externa. <br/>
                             Tecnologías utilizadas: JavaScript, Node.js, Express, React, Redux, Sequelize, PostgreSQL.<br/>

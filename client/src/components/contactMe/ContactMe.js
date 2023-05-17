@@ -80,7 +80,7 @@ const ContactMe = ()=>{
             </div>
 
             <div className="contentContactMe">
-                <form ref={form} onSubmit={sendEmail}>
+                <form ref={form} onSubmit={sendEmail} className="formContactMe">
                     
                     <label className="labelContactMe">Nombre</label> 
                     <input 

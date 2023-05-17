@@ -31,7 +31,7 @@ const Navbar = ()=>{
                 {/* <div  onClick={scrollToTop}>
                     <img src={Imagenes.logoContactPoint} alt="imglogo" className="imgNavbar"></img>
                 </div> */}
-                <div className="navegators">
+                
                     <Link 
                         to="Habilidades"
                         smooth="easeInOutQuart"
@@ -39,11 +39,12 @@ const Navbar = ()=>{
                         spy={true}
                         activeClass="active"
                         offset={-64}
+                        className="navegators"
                         >
                         <p>Habilidades</p>
                     </Link>
-                </div>
-                <div className="navegators">
+                
+                
                     <Link 
                         to="Proyectos"
                         smooth="easeInOutQuart"
@@ -51,12 +52,11 @@ const Navbar = ()=>{
                         spy={true}
                         activeClass= "active"
                         offset={-34}
+                        className="navegators"
                         >
                         <p>Proyectos</p>
                     </Link>
-                    
-                </div>
-                <div className="navegators">
+                 
                     <Link 
                         to="Contacto"
                         smooth="easeInOutQuart"
@@ -64,10 +64,11 @@ const Navbar = ()=>{
                         spy={true}
                         activeClass="active"
                         offset={-20}
+                        className="navegators"
                         >
                         <p>Contacto</p>
                     </Link>
-                </div>
+                    
                 {/* ---------------------------------------------- */}
                 {/* <div className="navegatorPhone">
                     <p onClick={showLinks}>☰</p>

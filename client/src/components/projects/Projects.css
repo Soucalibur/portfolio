@@ -43,7 +43,6 @@
     color: white;
     font-size: 1.7em;
     margin-top: 1em;
-    margin-bottom: 1em;
     text-align: center;
 }
 
@@ -53,6 +52,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 4em;
+    margin-top: 2em;
     font-size: 0.8em;
     
 }
@@ -60,7 +60,7 @@
 .positionImgProjects{
     display: flex;
     align-items: center;
-    height: 23em;
+    height: 21em;
 }
 .imgProjects{
     
@@ -70,6 +70,13 @@
 }
 
 .descriptionProjects{
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 23em;
+    width: 50%;
+}
+.descriptionProjectsHC{
     display: flex;
     align-items: center;
     color: white;
@@ -96,7 +103,6 @@
     color: white;
     font-size: 1.7em;
     margin-top: 2em;
-    margin-bottom: 1em;
     text-align: center;
 }
 
@@ -140,12 +146,7 @@
     height: 23em;
     width: 50%;
 }
-.imgProjectsCP{
-    
-    width: 35em;
-    height: 18em;
-    
-}
+
 .contectImgProjectsCP > a:link{
     border: none;
     background: none;
@@ -156,4 +157,143 @@
 
 .contectImgProjectsCP > a:hover{
     color: white;
+}
+
+@media (max-width: 1100px){
+    .contentProjectsCP, .contentProjectsHC{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4em;
+        gap: 0em;
+    }
+    .contentProjects{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4em;
+        margin-top: 0;
+        gap: 6em;
+    }
+    .descriptionProjectsHC{
+        display: flex;
+        align-items: center;
+        color: white;
+        height: 12em;
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 940px){
+    .contentProjectsCP{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4em;
+        gap: 4em;
+    }
+    .contentProjects{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4em;
+        gap: 6em;
+    }
+    .descriptionProjectsHC{
+        display: flex;
+        align-items: center;
+        color: white;
+        height: 12em;
+        width: 50%;
+    }
+    .titleOfProjects{
+        color: white;
+        font-size: 1.7em;
+        margin-top: 3em;
+        text-align: center;
+    }
+    .titleOfProjectsHC{
+        color: white;
+        font-size: 1.7em;
+        margin-top: 3em;
+        text-align: center;
+    }
+    .titleOfProjectsCP{
+        color: white;
+        font-size: 1.7em;
+        margin-top: 2em;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px){
+    .titleProjects{
+        text-align: center;
+        padding-top: 1.4em;
+        font-size: 8vw ;
+        color: white;
+    }
+    .contentProjectsCP{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 6em;
+        gap: 6em;
+    }
+    .descriptionProjectsCP{
+        display: flex;
+        align-items: center;
+        color: white;
+        height: 23em;
+        width: 80%;
+    }
+    .titleOfProjectsCP{
+        color: white;
+        font-size: 1.7em;
+        margin-top: 2em;
+        text-align: center;
+    }
+    .contentProjects{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 6em;
+        gap: 9em;
+    }
+    .positionImgProjects{
+        justify-content: center;
+    }
+    .titleOfProjects{
+        color: white;
+        font-size: 1.7em;
+        margin-top: 3em;
+        text-align: center;
+    }
+    .descriptionProjects{
+        display: flex;
+        align-items: center;
+        color: white;
+        height: 23em;
+        width: 80%;
+    }
+    .titleOfProjectsHC{
+        color: white;
+        font-size: 1.7em;
+        margin-top: 3em;
+        text-align: center;
+    }
+    .contentProjectsHC{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1em;
+        font-size: 0.8em;
+    }
+    .descriptionProjectsHC{
+        display: flex;
+        align-items: center;
+        color: white;
+        height: 12em;
+        width: 80%;
+    }
+    
+    .imgProjects{
+        width: 90%;
+        height: 35vh;
+    }
 }

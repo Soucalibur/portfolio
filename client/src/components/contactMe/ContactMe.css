@@ -105,3 +105,62 @@
 .linkLinkedin:active, .linkGitbub:active{
     background-color: rgba(114,50,242,1);
 }
+
+@media (max-width: 450px){
+    .titleContactMe{
+        margin-top: 1.55em;
+        color: white;
+        font-size: 8vw;
+        text-align: center;
+    }
+    .labelContactMe{
+        display: flex;
+        text-align: start;
+        
+        /* padding: 0.5em 0 0.2em 0; */
+    }
+    .inputContactMe{
+        width: 20em;
+        background: none;
+        border-radius: 5px;
+        border-color: white;
+        color: white;
+    }
+    .messageContactMe{
+        width: 20em;
+        height: 13em;
+        background:none;
+    
+        border-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        color: white;
+    }
+    .formContactMe{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .sendButtonContactMe{
+        width: 5em;
+        height: 2em;
+        border: solid 1px white;
+        border-radius: 20px;
+        margin: 1em 5em 0 5em;
+        background-color: none;
+        color: white;
+        transition: 0.2s;
+        align-self: center;
+    }
+    .containerLinksContactMe{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1em;
+        width: 100%;
+        align-self: center;
+    
+    }
+}
